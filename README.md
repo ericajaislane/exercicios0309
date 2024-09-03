@@ -1,5 +1,8 @@
 # exercicios0309
 1.	Escreva um algoritmo para ler 2 valores e se o segundo valor informado for ZERO, deve ser lido um novo valor, ou seja, para o segundo valor n˜ao pode ser aceito o valor zero e imprimir o resultado da divis˜ao do primeiro valor lido pelo segundo valor lido. (utilizar a estrutura while).
+
+
+
 #include <stdio.h>
 #include <locale.h>
 
@@ -23,7 +26,11 @@ int main() {
 
     return 0;
 }
+
 2.	Reescreva o exerc´ıcio anterior utilizando a estrutura do...while.
+
+
+
 
 #include <stdio.h>
 #include <locale.h>
@@ -50,7 +57,11 @@ int main() {
     return 0;
 }
 
+
+
 3.	Acrescentar uma mensagem de ’VALOR INVALIDO’ no exerc´ıcio ´ 1 caso o segundo valor informado seja ZERO.
+
+
 
 #include <stdio.h>
 #include <locale.h>
@@ -76,7 +87,11 @@ int main() {
     return 0;
 }
 
+
+
 4.	Acrescentar uma mensagem de ’VALOR INVALIDO’ no exerc´ıcio ´ 2 caso o segundo valor informado seja ZERO.
+
+
 #include <stdio.h>
 #include <locale.h>
 
@@ -102,7 +117,10 @@ int main() {
     return 0;
 }
 
+
 5.	Escreva um algoritmo para ler as notas da 1a. e 2a. avalia¸c˜oes de um aluno, calcule e imprima a m´edia (simples) desse aluno. S´o devem ser aceitos valores v´alidos durante a leitura (0 a 10) para cada nota.
+
+
 #include <stdio.h>
 #include <locale.h>
 
@@ -130,7 +148,11 @@ int main() {
 
     return 0;
 }
+
+
 6.	Acrescente uma mensagem ’NOVO CALCULO (S/N)?’ ao final do exerc´ıcio ´ 5. Se for respondido ’S’ deve retornar e executar um novo c´alculo, caso contr´ario dever´a encerrar o algoritmo.
+
+
 
 #include <stdio.h>
 #include <locale.h>
@@ -166,8 +188,12 @@ int main() {
     return 0;
 }
 
+
+
 7.	Escreva um algoritmo para imprimir os n´umeros de 1 (inclusive) a 10 (inclusive) em ordem crescente.
 #include <stdio.h>
+
+
 
 int main() {
     for (int i = 1; i <= 10; i++) {
@@ -175,7 +201,11 @@ int main() {
     }
     return 0;
 }
+
+
 8.	Escreva um algoritmo para imprimir os n´umeros de 1 (inclusive) a 10 (inclusive) em ordem decrescente.
+
+
 
 #include <stdio.h>
 
@@ -186,8 +216,12 @@ int main() {
     return 0;
 }
 
+
+
 9.	Escreva um algoritmo para imprimir os 10 primeiros n´umeros inteiros maiores que 100
 #include <stdio.h>
+
+
 
 int main() {
     for (int i = 101; i <= 110; i++) {
@@ -196,7 +230,11 @@ int main() {
     return 0;
 }
 
+
+
 10.	Ler um valor N e imprimir todos os valores inteiros entre 1 (inclusive) e N (inclusive). Considere que o N ser´a sempre maior que ZERO.
+
+
 
 #include <stdio.h>
 #include <locale.h>
@@ -216,7 +254,11 @@ int main() {
     return 0;
 }
 
+
+
 11.	Modifique o exercício anterior para aceitar somente valores maiores que 0 para N. Caso o valor informado (para N) n˜ao seja maior que 0, dever´a ser lido um novo valor para N.
+
+
 
 #include <stdio.h>
 #include <locale.h>
@@ -238,8 +280,14 @@ int main() {
     return 0;
 }
 
+
+
 12.	Escreva um algoritmo que calcule e imprima a tabuada do 8 (1 a 10).
-#include <stdio.h>
+
+
+include <stdio.h>
+
+
 
 int main() {
     int i;
@@ -250,7 +298,11 @@ int main() {
 
     return 0;
 }
+
+
 13.	Ler um valor inteiro (aceitar somente valores entre 1 e 10) e escrever a tabuada de 1 a 10 do valor lido
+
+
 #include <stdio.h>
 #include <locale.h>
 
@@ -293,7 +345,11 @@ int main() {
     return 0;
 }
 
+
+
 15.	Fa¸ca um algoritmo que calcule e escreva a m´edia aritm´etica dos n´umeros inteiros entre 15 (inclusive) e 100 (inclusive).
+
+
 
 #include <stdio.h>
 #include <locale.h>
@@ -314,7 +370,11 @@ int main() {
     return 0;
 }
 
+
+
 16.	Uma loja est´a levantando o valor total de todas as mercadorias em estoque. Escreva um algoritmo que permita a entrada das seguintes informa¸c˜oes: a) o n´umero total de mercadorias no estoque; b) o valor de cada mercadoria. Ao final imprimir o valor total em estoque e a m´edia de valor das mercadorias.
+
+
 
 #include <stdio.h>
 #include <locale.h>
@@ -341,7 +401,11 @@ int main() {
 
     return 0;
 }
+
+
 17.	O mesmo exerc´ıcio anterior, mas agora n˜ao ser´a informado o n´umero de mercadorias em estoque. Ent˜ao o funcionamento dever´a ser da seguinte forma: ler o valor da mercadoria e perguntar ‘MAIS MERCADORIAS (S/N)?’. Ao final, imprimir o valor total em estoque e a m´edia de valor das mercadorias em estoque.
+
+
 #include <stdio.h>
 #include <locale.h>
 
